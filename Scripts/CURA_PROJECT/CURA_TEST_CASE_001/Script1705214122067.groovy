@@ -46,6 +46,8 @@ WebUI.setText(findTestObject('Object Repository/CURA_OR_001/Page_CURA Healthcare
 
 WebUI.click(findTestObject('Object Repository/CURA_OR_001/Page_CURA Healthcare Service/button_Book Appointment'))
 
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/CURA_CHECKPOINTS/Checkpoint_CURA_001'), true)
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/CURA_OR_001/Page_CURA Healthcare Service/i_fa fa-bars'))
