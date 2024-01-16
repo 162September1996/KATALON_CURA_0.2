@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_TL_TEST_SUITE_002,Chrome 120.0.0.0,,,14-01-2024 13:31:19,14-01-2024 13:31:44,25.654s,PASSED
+,,,,,,,
+Test Cases/CURA_PROJECT/CURA_TL_002,Chrome 120.0.0.0,,,14-01-2024 13:31:30,14-01-2024 13:31:44,14.371s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,14-01-2024 13:31:30,14-01-2024 13:31:36,5.452s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,14-01-2024 13:31:36,14-01-2024 13:31:37,1.347s,PASSED
+"click(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/input_programs""))",Chrome 120.0.0.0,,,14-01-2024 13:31:37,14-01-2024 13:31:38,0.517s,PASSED
+"click(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,14-01-2024 13:31:38,14-01-2024 13:31:38,0.645s,PASSED
+"click(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/td_31""))",Chrome 120.0.0.0,,,14-01-2024 13:31:38,14-01-2024 13:31:39,0.549s,PASSED
+"setText(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/textarea_comment""), ""FOR CONSULTATION"")",Chrome 120.0.0.0,,,14-01-2024 13:31:39,14-01-2024 13:31:40,0.849s,PASSED
+"click(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,14-01-2024 13:31:40,14-01-2024 13:31:41,1.521s,PASSED
+"click(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,14-01-2024 13:31:41,14-01-2024 13:31:42,0.486s,PASSED
+"click(findTestObject(""Object Repository/CURA_TL_OR_002/Page_CURA Healthcare Service/a_History""))",Chrome 120.0.0.0,,,14-01-2024 13:31:42,14-01-2024 13:31:43,0.998s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,14-01-2024 13:31:43,14-01-2024 13:31:44,1.781s,PASSED
